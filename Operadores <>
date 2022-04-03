@@ -1,0 +1,55 @@
+Var
+// Seção de Declarações das variáveis 
+
+comissaoVendedor1, comissaoVendedor2: real
+
+idadeMae, idade, idadeMaior: inteiro
+
+tentativa_usuario, numero_secreto: inteiro
+
+signoCrush, meuSigno: caractere
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... nomeAluno <- "Laila"
+
+comissaoVendedor1 <- 250,50
+comissaoVendedor2 <- 235,95
+
+idadeMae <- 37
+idadeMaior <- 18
+
+numero_secreto <- 12
+
+
+
+//MAIOR QUE
+
+Escreval ("A comissao do vendedor 1 é MAIOR QUE a do vendedor 2? ", comissaoVendedor1 > comissaoVendedor2)
+
+
+//MENOR QUE
+Escreval ("Sua mãe tem menos que 40 anos? ", idadeMae < 40)
+
+//MAIOR OU IGUAL A
+Escreval ("Digite sua idade: ")
+Leia(idade)
+Escreval ("Voce é maior de idade?", idade >= idadeMaior)
+
+//MENOR OU IGUAL A
+Escreval ("Digite sua idade novamente: ")
+Leia(idade)
+Escreval ("Voce é menor de idade?", idade <= 17)
+
+//IGUAL A
+Escreval("Tente adivinhar o numero secreto: ")
+Leia(tentativa_usuario)
+Escreva("Voce acertou? ", tentativa_usuario = numero_secreto)
+
+//DIFERENTE DE
+Escreval("Digite o signo do seu crush: ")
+Leia(signoCrush)
+Escreval("Digite o seu signo: ")
+Leia(meuSigno)
+Escreval("Seu signo é diferente do seu crush? ", meuSigno <> signoCrush)
+
+Fimalgoritm
