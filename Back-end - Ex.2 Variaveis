@@ -6,6 +6,9 @@ A partir de agora, no VisualG, OK?
 // Descrição   : somar dois números
 // Autor(a)    : Letícia P. S. 
 // Data atual  : 02/04/2022
+
+MODO 1
+
 Var
 // Seção de Declarações das variáveis
 
@@ -35,32 +38,67 @@ Fimalgoritmo
 // Data atual  : 02/04/2022
 
 Var
-// Seção de Declarações das variáveis
-
-//numéricos
+// Seção de Declarações das variáveis 
 nomeAluno: caractere
-n1: inteiro
-n2: inteiro
-n3: inteiro
+n1: real
+n2: real
+n3: real
 
-media: real
+mediaDoAluno: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seção de Comandos, procedimento, funções, operadores, etc... nomeAluno <- "Laila"
 
 nomeAluno <- "Laila"
+
 n1 <- 7
 n2 <- 8
 n3 <- 6
 
-media <- (n1 + n2 + n3)/3
+mediaDoAluno <- (n1 + n2 + n3)/3
 
 escreval("Nome do Aluno: ", nomeAluno)
 escreval("n1: ", n1)
 escreval("n2: ", n2)
 escreval("n3: ", n3)
-escreval("A média é: ", media)
+escreval("A media da aluna ", nomeAluno, " foi", mediaDoAluno )
 
+Fimalgoritmo
+
+MODO 2
+
+Var
+// Seção de Declarações das variáveis 
+nomeAluno: caractere
+n1: real
+n2: real
+n3: real
+n4: real
+
+mediaDoAluno: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... nomeAluno <- "Laila"
+
+escreval(" Digite o seu nome: ")
+Leia(nomeAluno)
+
+escreval(" Digite a nota do 1º trimestre: ")
+Leia(n1)
+
+escreval(" Digite a nota do 2º trimestre: ")
+Leia(n2)
+
+escreval(" Digite a nota do 3º trimestre: ")
+Leia(n3)
+
+escreval(" Digite a nota do 4º trimestre: ")
+Leia(n4)
+
+mediaDoAluno <- (n1 + n2 + n3 + n4)/4
+
+
+escreval("A media da aluna ", nomeAluno, " foi", mediaDoAluno )
 
 Fimalgoritmo
 
