@@ -1,0 +1,39 @@
+// Descrição   : Operadores e expressões aritméticas
+// Autor(a)    : Letícia P.S.
+// Data atual  : 03/04/2022
+Var
+// Seção de Declarações das variáveis 
+
+n1, n2: real
+
+salarioMarco, totalDesconto, totalSalario: real
+
+horasDevidas: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... nomeAluno <- "Laila"
+
+Escreval ("Digite sua nota1: ")
+Leia (n1)
+
+Escreval ("Digite sua nota2: ")
+Leia (n2)
+
+Escreval ("Digite seu salario de Março: ")
+Leia (salarioMarco)
+
+Escreval ("Quantas horas estão devidas?")
+Leia (horasDevidas)
+
+//adição
+Escreval("Adição:", n1 + n2)
+
+//
+//subtração & Divisão & Multiplicação
+Escreval(" Seu salario seria: ", salarioMarco)
+totalDesconto <- ((salarioMarco/ 30)/8) * horasDevidas
+
+Escreva("Suas horas devidas são: ", horasDevidas, " , gerando desconto no valor de ", totalDesconto)
+totalSalario <- salarioMarco - totalDesconto
+Escreva("Seu salario final é: ", totalSalario)
+Fimalgoritmo
